@@ -1,0 +1,229 @@
+body, html {
+    font-size: 100%; 	padding: 0; margin: 0;
+    background: url("./images/bg4.jpg");
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #ffffff;
+
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+
+.main,
+.container > header {
+    width: 90%;
+    max-width: 70em;
+    margin: 0 auto;
+    padding: 0 4em 3.125em 6em;
+}
+
+.main {
+    color: #333;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.main h2 {
+    font-size: 300%;
+    font-weight: 300;
+    color: #ddd;
+    border-bottom: 1px solid #f8f8f8;
+    text-align: left;
+}
+
+.content {
+    display: none;
+    width: 1000px;
+    height: 800px;
+    border-radius: 30px;
+    padding: 20px;
+}
+#box1 {
+    background: #47a3da;
+}
+
+.main #box1 {
+    display: block;
+}
+
+img.arrow {
+    width: 50px;
+    position: relative;
+    float: right;
+    top: -5px;
+    left: -1200px;
+    cursor: pointer;
+}
+
+img.arrow:hover {
+    width: 55px;
+    transition: all 0.2s ease-out;
+}
+
+.box{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 150px;
+    top: 50px;
+}
+.box:hover {
+    height: 55px;
+    width: 55px;
+    transition: all 0.2s;
+}
+
+.box .btn {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+ul, li, ol, dl, dt, dd, div, p, span, h1, h2, h3, h4, h5, h6, a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.login ,.register{
+    display: none;
+    width: 512px;
+    height: 280px;
+    position: fixed;
+    border: #ebebeb solid 1px;
+    left: 50%;
+    top: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.login-title,.register-title {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+    cursor: move;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+    font-size: 30px;
+}
+
+.login-input-content,.register-input-content {
+    margin-top: 20px;
+}
+
+.login-button ,.register-button{
+    width: 100%;
+    margin: 30px auto 0px auto;
+    line-height: 40px;
+    font-size: 20px;
+    border: #ebebeb 1px solid;
+    text-align: center;
+}
+
+.login-bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .3);
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.login-button a,.register-button a {
+    display: block;
+}
+
+.login-input input.list-input,.register-input input.list-input {
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    width: 350px;
+    text-indent: 5px;
+    border-radius: 10px;
+    border: solid lightcoral 1px;
+}
+
+.login-input,.register-input {
+    overflow: hidden;
+    margin: 0px 0px 20px 0px;
+}
+
+.login-input label,.register-input label {
+    float: left;
+    width: 90px;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+    color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-title span,.register-title span {
+    position: absolute;
+    font-size: 12px;
+    right: -20px;
+    top: -30px;
+    background: #ffffff;
+    border: #ebebeb solid 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.login-select {
+    text-align: center;
+}
+
+select ,option{
+    font-size: 18px;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#login-button-submit,#register-button-submit2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: cornflowerblue;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#login-button-submit:hover,#register-button-submit2:hover {
+    border: solid 2px skyblue;
+    transition: all 0.2s;
+}
+
+select:hover,option:hover {
+    border: solid 2px saddlebrown;
+    transition: all 0.2s;
+}
+
+

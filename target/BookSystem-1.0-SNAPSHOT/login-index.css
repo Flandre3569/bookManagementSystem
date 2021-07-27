@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.web_body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background:url("./images/个人主页.jpg") no-repeat;
+}
+.web_font {
+    position: relative;
+    top: 300px;
+    left: 50%;
+    margin-left: -460px;
+    font-size: 59px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(146, 100, 83);
+}
+.blog_login {
+    position: relative;
+    top: 350px;
+    left: 67%;
+    text-decoration: none;
+    color: skyblue;
+    cursor: pointer;
+    font-size: 30px;
+}
+.blog_register {
+    position: relative;
+    top: 401px;
+    left: 54%;
+    text-decoration: none;
+    color: skyblue;
+    cursor: pointer;
+    font-size: 30px;
+}
+.login-header {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+ul, li, ol, dl, dt, dd, div, p, span, h1, h2, h3, h4, h5, h6, a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.login ,.register{
+    display: none;
+    width: 512px;
+    height: 280px;
+    position: fixed;
+    border: #ebebeb solid 1px;
+    left: 50%;
+    top: 50%;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.login-title,.register-title {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    position: relative;
+    cursor: move;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+    font-size: 30px;
+}
+
+.login-input-content,.register-input-content {
+    margin-top: 20px;
+}
+
+.login-button ,.register-button{
+    width: 100%;
+    margin: 30px auto 0px auto;
+    line-height: 40px;
+    font-size: 20px;
+    border: #ebebeb 1px solid;
+    text-align: center;
+}
+
+.login-bg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .3);
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.login-button a,.register-button a {
+    display: block;
+}
+
+.login-input input.list-input,.register-input input.list-input {
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    width: 350px;
+    text-indent: 5px;
+    border-radius: 10px;
+    border: solid lightcoral 1px;
+}
+
+.login-input,.register-input {
+    overflow: hidden;
+    margin: 0px 0px 20px 0px;
+}
+
+.login-input label,.register-input label {
+    float: left;
+    width: 90px;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+    color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-title span,.register-title span {
+    position: absolute;
+    font-size: 12px;
+    right: -20px;
+    top: -30px;
+    background: #ffffff;
+    border: #ebebeb solid 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.login-select {
+    text-align: center;
+}
+
+select ,option{
+    font-size: 18px;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: cornflowerblue;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#login-button-submit,#register-button-submit2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: cornflowerblue;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#login-button-submit:hover,#register-button-submit2:hover {
+    border: solid 2px skyblue;
+    transition: all 0.2s;
+}
+
+select:hover,option:hover {
+    border: solid 2px saddlebrown;
+    transition: all 0.2s;
+}

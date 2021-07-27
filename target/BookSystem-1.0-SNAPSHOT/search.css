@@ -1,0 +1,24 @@
+.box input[type="text"] {
+    top: 30%;
+    left: 50%;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid cadetblue;
+    padding: 5px 10px;
+    width: 650px;
+    outline: none;
+    color: #2980b9;
+    border-radius: 24px;
+    transition: 0.25s;
+    position: absolute;
+    font-size: 29px;
+    transform: translate(-50%,-50%);
+}
+.box input[type="text"]:focus {
+    width: 730px;
+    border-color: #2980b9;
+}
+
+

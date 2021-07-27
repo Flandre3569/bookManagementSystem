@@ -1,0 +1,218 @@
+body, html {
+    font-size: 100%; 	padding: 0; margin: 0;
+    background: url("./images/bg4.jpg");
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #ffffff;
+
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.main,
+.container > header {
+    width: 90%;
+    max-width: 70em;
+    margin: 0 auto;
+    padding: 0 4em 3.125em 6em;
+}
+
+.main {
+    color: #333;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.main h2 {
+    font-size: 300%;
+    font-weight: 300;
+    color: #ddd;
+    border-bottom: 1px solid #f8f8f8;
+    text-align: left;
+}
+
+.menu {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+.menu li a {
+    display: none;
+    text-indent: 0;
+    height: 5em;
+    width: 9em;
+    line-height: 5em;
+    text-align: center;
+    color: #999;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    transition: 0.1s ease-in-out;
+}
+
+.menu li a:hover {
+    background: #47a3da;
+    color: #fff;
+}
+
+.tab1 {
+    background-size: 100% 100%;
+}
+.box{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 150px;
+    top: 50px;
+}
+.box .btn {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    width: 1000px;
+    height: 800px;
+    border-radius: 30px;
+    padding: 20px;
+}
+#box1 {
+    background: deepskyblue;
+}
+#box2 {
+    background: aliceblue;
+
+}
+#box3 {
+    background: bisque;
+}
+#box4 {
+    background: beige;
+    text-align: center;
+}
+#box5 {
+    background: burlywood;
+    text-align: center;
+}
+#box6 {
+    background: azure;
+    text-align: center;
+}
+.main #box1 {
+    display: block;
+}
+
+img.arrow {
+    width: 50px;
+    position: relative;
+    float: right;
+    top: -70px;
+    left: -1200px;
+    cursor: pointer;
+}
+
+img.arrow:hover {
+    width: 55px;
+    transition: all 0.2s ease-out;
+}
+
+.table_container {
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.delete_btn,.delete_btn1 {
+    float: right;
+    color: brown;
+    background: content-box;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    display: inline-block;
+    border: solid;
+    text-align: center;
+}
+.update_btn {
+    color: brown;
+    background: content-box;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    display: inline-block !important;
+    border: solid;
+    text-align: center;
+}
+.btn_td {
+    text-align: center;
+    display: inline-block;
+}
+.btn_td2 {
+    text-align: center;
+    display: inline-block;
+}
+
+.table_update,.table_add {
+    width: 50%;
+    height: 33%;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    left: 249px;
+    position: relative;
+    font-size: larger;
+    border: solid;
+}
+
+input.getPage {
+    display: none;
+}
+.change_btn,.add_btn {
+    color: brown;
+    background: content-box;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    display: inline-block !important;
+    border: solid;
+    text-align: center;
+    left: 150px;
+    position: relative;
+}
+
+input[type="text"] {
+    width: 240px;
+    border: solid darkgrey;
+    border-radius: 6px;
+}
+
